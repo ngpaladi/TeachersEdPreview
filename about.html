@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="">
+
+    <title>Teacher's Ed</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./css/main.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+
+            <div class="cover-container">
+                <img style="position: fixed; right: 0; bottom: 0; border: 0;" src="img/chalk.png" />
+                <div class="masthead clearfix" style="position: absolute">
+                    <div class="inner">
+                        <h3 class="masthead-brand handwriting">Teacher's Ed</h3>
+                        <nav>
+                            <ul class="nav masthead-nav">
+                                <li class="handwriting"><a href="./index.html">Home</a></li>
+                                <li class="handwriting"><a href="./services.html">Services</a></li>
+                                <li class="active handwriting"><a href="./about.html">About Us</a></li>
+                                <li class="handwriting"><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <img id="chalk" style="width: 500; position: fixed; right: 0; bottom: 0; border: 0;" src="img/chalk.png" />
+                <img id="welcome" style="position: fixed; left: 0; top: 0; border: 0; position: absolute;" src="img/welcome.png" />
+            </div>
+            <div class="row" style="height: 50px"></div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2 class="handwriting" align="center"> <br> <br> <br>Our Mission </h2>
+                    <p class="handwriting">
+                        Insert short summary text here. The following is a placeholder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lectus dignissim mi placerat, in maximus quam gravida. Curabitur efficitur magna sed lectus rhoncus egestas. Suspendisse dui eros, dapibus vel magna eget, malesuada faucibus tellus. Fusce iaculis sit amet urna ut lacinia. Suspendisse et neque quis nunc convallis gravida.
+                    </p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <h2 class="handwriting" align="center"> <br> Our Founders </h2>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br> Image Here </div>
+                <div class="col-md-2">
+                    <h3 class="handwriting" align="center"> Name One </h3>
+                    <p class="handwriting">
+                        Insert short biography text here. The following is a placeholder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lectus dignissim mi placerat, in maximus quam gravida. Curabitur efficitur magna sed lectus rhoncus egestas. Suspendisse dui eros, dapibus vel magna eget, malesuada faucibus tellus. Fusce iaculis sit amet urna ut lacinia. Suspendisse et neque quis nunc convallis gravida.
+                    </p>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-2">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br> Image Here</div>
+                <div class="col-md-2">
+                    <h3 class="handwriting" align="center"> Name Two </h3>
+                    <p class="handwriting">
+                        Insert short biography text here. The following is a placeholder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tristique lectus dignissim mi placerat, in maximus quam gravida. Curabitur efficitur magna sed lectus rhoncus egestas. Suspendisse dui eros, dapibus vel magna eget, malesuada faucibus tellus. Fusce iaculis sit amet urna ut lacinia. Suspendisse et neque quis nunc convallis gravida.
+                    </p>
+                </div>
+                <div class="col-md-4"></div>
+
+            </div>
+            <br>
+
+            <div class="row" style="height: 100px"></div>
+        </div>
+    </div>
+
+    <div class="mastfoot">
+        <div class="inner">
+            <p class="handwriting fadeIn three" align="center">Another website by <a href="http://www.noahpaladino.com">Noah Paladino</a></p>
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+<!-- Bootstrap core JavaScript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="../../dist/js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug 
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+<script type="text/javascript">
+    function getWelcomeWidth() {
+        if ($(window).width() > 2000) {
+            return 500;
+        } else if ($(window).width() < 1000) {
+            return 0;
+        } else {
+            return $(window).width() / 6;
+        }
+    }
+
+    function getChalkWidth() {
+        if ($(window).width() > 2000) {
+            return 300;
+        } else if ($(window).width() < 750) {
+            return 0;
+        } else {
+            return 300;
+        }
+    }
+    $("#welcome").css("width", getWelcomeWidth());
+    $("#chalk").css("width", getChalkWidth());
+</script>
+
+</html>
